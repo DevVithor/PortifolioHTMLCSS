@@ -1,65 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.apresentacao{
-    margin: 10% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.apresentacao__conteudo{
-    width: 615px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-.apresentacao__conteudo__titulo{
-    font-size: 36px;
-    font-family: 'Krona One', sans-serif;
-}
-.apresentacao__conteudo__paragrafo{
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+.apresentacao {
+  margin: 10% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.apresentacao__conteudo__foto{
-    width: 488px;
-    height: 550px;
-    top: 235px;
-    left: 1030px;
+.apresentacao__conteudo {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.apresentacao__conteudo__titulo {
+  font-size: 36px;
+  font-family: "Krona One", sans-serif;
+}
+.apresentacao__conteudo__paragrafo {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.apresentacao__botoes{
-    display: flex;
-    justify-content: space-between;
+.apresentacao__conteudo__foto {
+  width: 488px;
+  height: 550px;
+  top: 235px;
+  left: 1030px;
+}
+
+.apresentacao__botoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+  font-family: "Krona One", sans-rerif;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 body {
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #2a2b2b;
-    color: #DFECF6;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #dfecf6;
 }
 
-
 .Titulo_Destaque {
-    color: #2F77B1;
+  color: #2f77b1;
 }
 
 .apresentacao__botoes__links {
-    background-color: #4BA5EA;
-    width: 280px;
-    text-align: center;
-    border-radius: 16px;
-    font-size: 24px;
-    padding: 21.5px 0;
-    text-decoration: none;
-    color:black;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+  width: 378px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #22d4fd;
+  font-size: 24px;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color: #f6f6f6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+header {
+  background-color: #2f77b1;
+  margin-top: 150px;
 }
