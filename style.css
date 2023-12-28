@@ -28,10 +28,8 @@
 }
 
 .apresentacao__conteudo__foto {
-  width: 488px;
-  height: 550px;
-  top: 235px;
-  left: 1030px;
+  width: 620px;
+  height: 800px;
 }
 
 .apresentacao__botoes {
@@ -52,14 +50,17 @@ body {
   height: 100vh;
   box-sizing: border-box;
   background-color: #000000;
-  color: #dfecf6;
+  color: #f6f6f6;
 }
 
 .Titulo_Destaque {
-  color: #2f77b1;
+  color: #22d4fd;
 }
 
 .apresentacao__botoes__links {
+  justify-content: center;
+  gap: 16px;
+  display: flex;
   width: 378px;
   text-align: center;
   border-radius: 8px;
@@ -72,7 +73,6 @@ body {
   font-weight: 600;
 }
 
-header {
-  background-color: #2f77b1;
-  margin-top: 150px;
+.apresentacao__botoes__links:hover {
+  background-color: #272727;
 }
